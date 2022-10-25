@@ -18,7 +18,7 @@ import com.beust.jcommander.Parameter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-
+//I am in BaseTest
 	public static WebDriver driver;
 	public static ReadConfig readConfig=new ReadConfig();
 	
