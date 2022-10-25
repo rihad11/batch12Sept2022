@@ -11,7 +11,7 @@ public class HomePage extends BaseTest {
 
 	
 	//for every page - create single class
-	//create constructor to initialize webelements using pagefactory
+	//create constructor to initialize webelements using Pagefactory
 	//add locators
 	//add methods
 	
@@ -29,11 +29,6 @@ public class HomePage extends BaseTest {
 	
 	@FindBy(id="pass")
 	WebElement passwordfb;
-	
-	
-	
-	
-	
 	
 	
 	@FindBy(xpath = "//*[@id=\"headerPrimary\"]/a[4]/span")
