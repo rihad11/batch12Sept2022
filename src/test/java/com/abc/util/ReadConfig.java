@@ -52,4 +52,14 @@ public class ReadConfig {
 		return passsword;
 	}
 
+	public String getUserSql() {
+		String usersqlString=properties.getProperty("usermysql");
+		return usersqlString;
+	}
+
+	public String getPassSql() {
+		String userpass=properties.getProperty("userpass");
+		return userpass;
+	}
+
 }
