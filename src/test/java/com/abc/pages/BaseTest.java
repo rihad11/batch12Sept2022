@@ -13,6 +13,7 @@ import org.testng.annotations.Parameters;
 
 import com.abc.util.Log;
 import com.abc.util.ReadConfig;
+import com.aventstack.extentreports.ExtentTest;
 import com.beust.jcommander.Parameter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -21,6 +22,7 @@ public class BaseTest {
 //I am in BaseTest
 	public static WebDriver driver;
 	public static ReadConfig readConfig=new ReadConfig();
+	public static ExtentTest test;
 	
 	@Parameters("browser")
 	@BeforeSuite

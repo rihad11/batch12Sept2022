@@ -1,66 +1,40 @@
-[INFO ] 2022-10-24 20:03:58.558 [main] Log - launching chrome
-[INFO ] 2022-10-24 20:04:27.086 [main] Log - go to traget
-[INFO ] 2022-10-24 20:04:37.497 [main] Log - rhasan@gmail.com
-[INFO ] 2022-10-24 20:04:37.790 [main] Log - raki
-[INFO ] 2022-10-24 20:04:38.208 [main] Log - hasan
-[INFO ] 2022-10-24 20:04:38.776 [main] Log - Abc!234
-[INFO ] 2022-10-24 20:04:38.819 [main] Log - driver quiting
-[INFO ] 2022-10-24 20:34:33.543 [main] Log - launching chrome
-[INFO ] 2022-10-24 20:35:00.332 [main] Log - https://www.target.com
-[INFO ] 2022-10-24 20:35:12.673 [main] Log - rhasan@gmail.com
-[INFO ] 2022-10-24 20:35:12.970 [main] Log - raki
-[INFO ] 2022-10-24 20:35:13.388 [main] Log - hasan
-[INFO ] 2022-10-24 20:35:13.996 [main] Log - Abc!234
-[INFO ] 2022-10-24 20:35:14.046 [main] Log - driver quiting
-[INFO ] 2022-10-24 20:40:00.140 [main] Log - launching chrome
-[INFO ] 2022-10-24 20:40:27.734 [main] Log - https://www.target.com
-[INFO ] 2022-10-24 20:40:38.744 [main] Log - driver quiting
-[INFO ] 2022-10-24 20:50:53.254 [main] Log - launching chrome
-[INFO ] 2022-10-24 20:51:22.197 [main] Log - https://www.target.com
-[INFO ] 2022-10-24 20:51:22.813 [main] Log - abcd@yahoo  pqrse!234
-[INFO ] 2022-10-24 20:51:22.824 [main] Log - abfggmail.com  xyzrt!234
-[INFO ] 2022-10-24 20:51:22.834 [main] Log - efgh@icloud.com  uopiy!234
-[INFO ] 2022-10-24 20:51:22.896 [main] Log - driver quiting
-[INFO ] 2022-10-24 20:53:33.697 [main] Log - launching chrome
-[INFO ] 2022-10-24 20:53:58.070 [main] Log - https://www.target.com
-[INFO ] 2022-10-24 20:54:11.972 [main] Log - abcd@yahoo  pqrse!234
-[INFO ] 2022-10-24 20:54:52.233 [main] Log - driver quiting
-[INFO ] 2022-10-24 21:25:46.355 [main] Log - rhasan@gmail.com   Abcsd!234
-[INFO ] 2022-10-24 21:25:46.369 [main] Log - rihad22@yahoo.com   Pqrs!2345
-[INFO ] 2022-10-24 21:25:46.373 [main] Log - ExperAuto@gmail.com   JKL!23454
-[INFO ] 2022-10-24 21:31:03.355 [main] Log - launching chrome
-[INFO ] 2022-10-24 21:31:08.914 [main] Log - https://www.facebook.com
-[INFO ] 2022-10-24 21:31:10.901 [main] Log - rhasan@gmail.com   Abcsd!234
-[INFO ] 2022-10-24 21:31:11.341 [main] Log - rihad22@yahoo.com   Pqrs!2345
-[INFO ] 2022-10-24 21:31:12.404 [main] Log - ExperAuto@gmail.com   JKL!23454
-[INFO ] 2022-10-24 21:31:12.463 [main] Log - driver quiting
-[INFO ] 2022-10-24 21:34:14.492 [main] Log - launching chrome
-[INFO ] 2022-10-24 21:34:19.200 [main] Log - https://www.facebook.com
-[INFO ] 2022-10-24 21:34:21.254 [main] Log - rhasan@gmail.com
-[INFO ] 2022-10-24 21:34:21.499 [main] Log - Abcsd!234
-[INFO ] 2022-10-24 21:34:23.235 [main] Log - rihad22@yahoo.com
-[INFO ] 2022-10-24 21:34:23.310 [main] Log - Pqrs!2345
-[INFO ] 2022-10-24 21:34:23.935 [main] Log - ExperAuto@gmail.com
-[INFO ] 2022-10-24 21:34:24.006 [main] Log - JKL!23454
-[INFO ] 2022-10-24 21:34:24.086 [main] Log - driver quiting
-[INFO ] 2022-10-24 21:34:47.281 [main] Log - launching chrome
-[INFO ] 2022-10-24 21:34:52.039 [main] Log - https://www.facebook.com
-[INFO ] 2022-10-24 21:34:54.753 [main] Log - rhasan@gmail.com
-[INFO ] 2022-10-24 21:34:55.048 [main] Log - Abcsd!234
-[INFO ] 2022-10-24 21:34:57.398 [main] Log - rihad22@yahoo.com
-[INFO ] 2022-10-24 21:34:57.476 [main] Log - Pqrs!2345
-[INFO ] 2022-10-24 21:34:58.382 [main] Log - ExperAuto@gmail.com
-[INFO ] 2022-10-24 21:34:58.452 [main] Log - JKL!23454
-[INFO ] 2022-10-24 21:34:58.532 [main] Log - driver quiting
-[INFO ] 2022-10-24 21:36:24.885 [main] Log - launching chrome
-[INFO ] 2022-10-24 21:36:29.670 [main] Log - https://www.facebook.com
-[INFO ] 2022-10-24 21:36:32.240 [main] Log - rhasan@gmail.com
-[INFO ] 2022-10-24 21:36:32.556 [main] Log - Abcsd!234
-[INFO ] 2022-10-24 21:36:34.400 [main] Log - page got refreshed
-[INFO ] 2022-10-24 21:36:34.485 [main] Log - rihad22@yahoo.com
-[INFO ] 2022-10-24 21:36:34.543 [main] Log - Pqrs!2345
-[INFO ] 2022-10-24 21:36:34.563 [main] Log - page got refreshed
-[INFO ] 2022-10-24 21:36:35.190 [main] Log - ExperAuto@gmail.com
-[INFO ] 2022-10-24 21:36:35.282 [main] Log - JKL!23454
-[INFO ] 2022-10-24 21:36:35.304 [main] Log - page got refreshed
-[INFO ] 2022-10-24 21:36:35.355 [main] Log - driver quiting
+[INFO ] 2022-10-25 19:46:01.915 [main] Log - launching chrome
+[INFO ] 2022-10-25 19:46:07.501 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-25 19:46:09.930 [main] Log - rhasan@gmail.com
+[INFO ] 2022-10-25 19:46:10.244 [main] Log - Abcsd!234
+[INFO ] 2022-10-25 19:46:10.276 [main] Log - page got refreshed
+[INFO ] 2022-10-25 19:46:11.806 [main] Log - rihad22@yahoo.com
+[INFO ] 2022-10-25 19:46:11.858 [main] Log - Pqrs!2345
+[INFO ] 2022-10-25 19:46:11.878 [main] Log - page got refreshed
+[INFO ] 2022-10-25 19:46:12.373 [main] Log - ExperAuto@gmail.com
+[INFO ] 2022-10-25 19:46:12.429 [main] Log - JKL!23454
+[INFO ] 2022-10-25 19:46:12.485 [main] Log - page got refreshed
+[INFO ] 2022-10-25 19:46:12.540 [main] Log - driver quiting
+[INFO ] 2022-10-25 19:58:42.641 [main] Log - launching chrome
+[INFO ] 2022-10-25 19:58:47.828 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-25 20:00:55.266 [main] Log - launching chrome
+[INFO ] 2022-10-25 20:01:01.492 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-25 20:01:49.277 [main] Log - launching chrome
+[INFO ] 2022-10-25 20:01:54.708 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-25 20:01:56.809 [main] Log - rhasan@gmail.com
+[INFO ] 2022-10-25 20:01:56.958 [main] Log - Abcsd!234
+[INFO ] 2022-10-25 20:01:56.981 [main] Log - page got refreshed
+[INFO ] 2022-10-25 20:01:58.689 [main] Log - rihad22@yahoo.com
+[INFO ] 2022-10-25 20:01:58.856 [main] Log - Pqrs!2345
+[INFO ] 2022-10-25 20:01:58.896 [main] Log - page got refreshed
+[INFO ] 2022-10-25 20:01:59.464 [main] Log - ExperAuto@gmail.com
+[INFO ] 2022-10-25 20:01:59.523 [main] Log - JKL!23454
+[INFO ] 2022-10-25 20:01:59.545 [main] Log - page got refreshed
+[INFO ] 2022-10-25 20:01:59.580 [main] Log - driver quiting
+[INFO ] 2022-10-25 20:14:43.189 [main] Log - launching chrome
+[INFO ] 2022-10-25 20:14:48.970 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-25 20:14:51.377 [main] Log - rhasan@gmail.com
+[INFO ] 2022-10-25 20:14:51.578 [main] Log - Abcsd!234
+[INFO ] 2022-10-25 20:14:51.608 [main] Log - page got refreshed
+[INFO ] 2022-10-25 20:14:53.350 [main] Log - rihad22@yahoo.com
+[INFO ] 2022-10-25 20:14:53.419 [main] Log - Pqrs!2345
+[INFO ] 2022-10-25 20:14:53.459 [main] Log - page got refreshed
+[INFO ] 2022-10-25 20:14:53.929 [main] Log - ExperAuto@gmail.com
+[INFO ] 2022-10-25 20:14:53.989 [main] Log - JKL!23454
+[INFO ] 2022-10-25 20:14:54.023 [main] Log - page got refreshed
+[INFO ] 2022-10-25 20:14:54.075 [main] Log - driver quiting
