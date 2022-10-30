@@ -64,3 +64,38 @@
 [INFO ] 2022-10-24 21:36:35.282 [main] Log - JKL!23454
 [INFO ] 2022-10-24 21:36:35.304 [main] Log - page got refreshed
 [INFO ] 2022-10-24 21:36:35.355 [main] Log - driver quiting
+[INFO ] 2022-10-30 18:48:14.753 [main] Log - launching chrome
+[INFO ] 2022-10-30 18:48:19.375 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-30 18:49:19.978 [main] Log - driver quiting
+[INFO ] 2022-10-30 18:50:41.595 [main] Log - launching chrome
+[INFO ] 2022-10-30 18:50:46.225 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-30 18:52:05.343 [main] Log - launching chrome
+[INFO ] 2022-10-30 18:52:10.285 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-30 18:52:10.866 [main] Log - abcd@yahoo
+[INFO ] 2022-10-30 18:52:11.129 [main] Log - pqrse!234
+[INFO ] 2022-10-30 18:52:11.152 [main] Log - page got refreshed
+[INFO ] 2022-10-30 18:52:11.152 [main] Log - abcd@yahoo  pqrse!234
+[INFO ] 2022-10-30 18:52:12.423 [main] Log - abfggmail.com
+[INFO ] 2022-10-30 18:52:12.492 [main] Log - xyzrt!234
+[INFO ] 2022-10-30 18:52:12.499 [main] Log - page got refreshed
+[INFO ] 2022-10-30 18:52:12.499 [main] Log - abfggmail.com  xyzrt!234
+[INFO ] 2022-10-30 18:52:12.984 [main] Log - efgh@icloud.com
+[INFO ] 2022-10-30 18:52:13.037 [main] Log - uopiy!234
+[INFO ] 2022-10-30 18:52:13.051 [main] Log - page got refreshed
+[INFO ] 2022-10-30 18:52:13.052 [main] Log - efgh@icloud.com  uopiy!234
+[INFO ] 2022-10-30 18:52:13.098 [main] Log - driver quiting
+[INFO ] 2022-10-30 18:55:35.515 [main] Log - launching chrome
+[INFO ] 2022-10-30 18:55:40.427 [main] Log - https://www.facebook.com
+[INFO ] 2022-10-30 18:55:41.219 [main] Log - abcd@yahoo
+[INFO ] 2022-10-30 18:55:41.453 [main] Log - pqrse!234
+[INFO ] 2022-10-30 18:55:41.478 [main] Log - page got refreshed
+[INFO ] 2022-10-30 18:55:41.478 [main] Log - abcd@yahoo  pqrse!234
+[INFO ] 2022-10-30 18:55:42.829 [main] Log - abfggmail.com
+[INFO ] 2022-10-30 18:55:42.908 [main] Log - xyzrt!234
+[INFO ] 2022-10-30 18:55:42.918 [main] Log - page got refreshed
+[INFO ] 2022-10-30 18:55:42.918 [main] Log - abfggmail.com  xyzrt!234
+[INFO ] 2022-10-30 18:55:43.375 [main] Log - efgh@icloud.com
+[INFO ] 2022-10-30 18:55:43.449 [main] Log - uopiy!234
+[INFO ] 2022-10-30 18:55:43.460 [main] Log - page got refreshed
+[INFO ] 2022-10-30 18:55:43.461 [main] Log - efgh@icloud.com  uopiy!234
+[INFO ] 2022-10-30 18:55:43.494 [main] Log - driver quiting

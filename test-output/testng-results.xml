@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-24T21:36:30 EDT" name="Default suite" finished-at="2022-10-24T21:36:35 EDT" duration-ms="4990">
+  <suite started-at="2022-10-30T18:52:10 EDT" name="Default suite" finished-at="2022-10-30T18:52:13 EDT" duration-ms="2623">
     <groups>
     </groups>
-    <test started-at="2022-10-24T21:36:30 EDT" name="Default test" finished-at="2022-10-24T21:36:35 EDT" duration-ms="4990">
-      <class name="com.abc.testcases.DataDriventest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.abc.testcases.DataDriventest@d737b89]" started-at="2022-10-24T21:36:19 EDT" name="setup" finished-at="2022-10-24T21:36:30 EDT" duration-ms="10761" status="PASS">
+    <test started-at="2022-10-30T18:52:10 EDT" name="Default test" finished-at="2022-10-30T18:52:13 EDT" duration-ms="2623">
+      <class name="com.abc.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@d737b89]" started-at="2022-10-30T18:51:57 EDT" name="setup" finished-at="2022-10-30T18:52:10 EDT" duration-ms="12456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,59 +18,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ddt(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.DataDriventest@d737b89]" started-at="2022-10-24T21:36:31 EDT" name="ddt" data-provider="ddt" finished-at="2022-10-24T21:36:34 EDT" duration-ms="2932" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@d737b89]" started-at="2022-10-30T18:52:10 EDT" name="logintest" data-provider="logindata" finished-at="2022-10-30T18:52:11 EDT" duration-ms="665" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[rhasan@gmail.com]]>
+                <![CDATA[abcd@yahoo]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Abcsd!234]]>
+                <![CDATA[pqrse!234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ddt -->
-        <test-method signature="ddt(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.DataDriventest@d737b89]" started-at="2022-10-24T21:36:34 EDT" name="ddt" data-provider="ddt" finished-at="2022-10-24T21:36:34 EDT" duration-ms="157" status="PASS">
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@d737b89]" started-at="2022-10-30T18:52:11 EDT" name="logintest" data-provider="logindata" finished-at="2022-10-30T18:52:12 EDT" duration-ms="1343" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[rihad22@yahoo.com]]>
+                <![CDATA[abfggmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Pqrs!2345]]>
+                <![CDATA[xyzrt!234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ddt -->
-        <test-method signature="ddt(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.DataDriventest@d737b89]" started-at="2022-10-24T21:36:34 EDT" name="ddt" data-provider="ddt" finished-at="2022-10-24T21:36:35 EDT" duration-ms="743" status="PASS">
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@d737b89]" started-at="2022-10-30T18:52:12 EDT" name="logintest" data-provider="logindata" finished-at="2022-10-30T18:52:13 EDT" duration-ms="551" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ExperAuto@gmail.com]]>
+                <![CDATA[efgh@icloud.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[JKL!23454]]>
+                <![CDATA[uopiy!234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ddt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abc.testcases.DataDriventest@d737b89]" started-at="2022-10-24T21:36:35 EDT" name="tearDown" finished-at="2022-10-24T21:36:35 EDT" duration-ms="118" status="PASS">
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abc.testcases.LoginTest@d737b89]" started-at="2022-10-30T18:52:13 EDT" name="tearDown" finished-at="2022-10-30T18:52:13 EDT" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.abc.testcases.DataDriventest -->
+      </class> <!-- com.abc.testcases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

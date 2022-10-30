@@ -16,8 +16,10 @@ public class LoginTest extends BaseTest {
 		
 		
 		  HomePage hPage=new HomePage(driver); 
-		  LoginPage lp = hPage.signIn();
-		  lp.SignorLogin(user, pass);
+		 // LoginPage lp = hPage.signIn();
+		  //lp.SignorLogin(user, pass);
+		  hPage.loginFb(user, pass);
+		  
 		  Log.info(user+"  "+pass);
 	}
 	
