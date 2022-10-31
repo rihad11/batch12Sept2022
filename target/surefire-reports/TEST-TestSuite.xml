@@ -1,101 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.316" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="1.215" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="gopherProxySet" value="false"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="webdriver.chrome.driver" value="/Users/rihad/.cache/selenium/chromedriver/mac64/106.0.5249.61/chromedriver"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/rihad/eclipse-workspace/AutomationFramework/target/test-classes:/Users/rihad/eclipse-workspace/AutomationFramework/target/classes:/Users/rihad/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/rihad/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rihad/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/rihad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/rihad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/rihad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/rihad/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/rihad/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/rihad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/rihad/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/rihad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/rihad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/rihad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/rihad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.5.0/selenium-java-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.5.0/selenium-api-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.5.0/selenium-chrome-driver-4.5.0.jar:/Users/rihad/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/rihad/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/rihad/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/rihad/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/rihad/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/rihad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/rihad/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/rihad/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/rihad/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.5.0/selenium-chromium-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.5.0/selenium-json-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.5.0/selenium-devtools-v104-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.5.0/selenium-devtools-v105-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.5.0/selenium-devtools-v106-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.5.0/selenium-devtools-v85-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.5.0/selenium-edge-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.5.0/selenium-firefox-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.5.0/selenium-ie-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.5.0/selenium-remote-driver-4.5.0.jar:/Users/rihad/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.79.Final/netty-transport-classes-kqueue-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.79.Final/netty-transport-native-kqueue-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-api/1.17.0/opentelemetry-api-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-context/1.17.0/opentelemetry-context-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.17.0/opentelemetry-exporter-logging-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.17.0/opentelemetry-sdk-metrics-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.17.0-alpha/opentelemetry-sdk-logs-1.17.0-alpha.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.17.0/opentelemetry-sdk-common-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.17.0/opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.17.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.17.0/opentelemetry-exporter-common-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.17.0/opentelemetry-sdk-trace-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.17.0/opentelemetry-sdk-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.17.0-alpha/opentelemetry-semconv-1.17.0-alpha.jar:/Users/rihad/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/rihad/.m2/repository/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rihad/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/rihad/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/rihad/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/rihad/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rihad/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/rihad/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.5.0/selenium-http-4.5.0.jar:/Users/rihad/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.5.0/selenium-safari-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.5.0/selenium-support-4.5.0.jar:/Users/rihad/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/rihad/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/rihad/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rihad/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/rihad/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/rihad/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/rihad/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/rihad/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/rihad/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/rihad/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/rihad/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/rihad/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/rihad/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/rihad/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="os.name" value="Mac OS X"/>
+    <property name="JOB_NAME" value="abc"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="PWD" value="/"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/abc/5/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rihad/eclipse-workspace/AutomationFramework/target/surefire/surefirebooter15315615763179669176.jar /Users/rihad/eclipse-workspace/AutomationFramework/target/surefire 2022-10-30T21-19-02_050-jvmRun1 surefire4092891014399075827tmp surefire_01028937478686729456tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/rihad/eclipse-workspace/AutomationFramework/target/test-classes:/Users/rihad/eclipse-workspace/AutomationFramework/target/classes:/Users/rihad/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/rihad/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rihad/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/rihad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/rihad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/rihad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/rihad/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/rihad/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/rihad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/rihad/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/rihad/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/rihad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/rihad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/rihad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/rihad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.5.0/selenium-java-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.5.0/selenium-api-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.5.0/selenium-chrome-driver-4.5.0.jar:/Users/rihad/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/rihad/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/rihad/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/rihad/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/rihad/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/rihad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/rihad/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/rihad/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/rihad/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.5.0/selenium-chromium-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.5.0/selenium-json-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.5.0/selenium-devtools-v104-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.5.0/selenium-devtools-v105-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.5.0/selenium-devtools-v106-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.5.0/selenium-devtools-v85-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.5.0/selenium-edge-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.5.0/selenium-firefox-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.5.0/selenium-ie-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.5.0/selenium-remote-driver-4.5.0.jar:/Users/rihad/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.79.Final/netty-transport-classes-kqueue-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.79.Final/netty-transport-native-kqueue-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-api/1.17.0/opentelemetry-api-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-context/1.17.0/opentelemetry-context-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.17.0/opentelemetry-exporter-logging-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.17.0/opentelemetry-sdk-metrics-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.17.0-alpha/opentelemetry-sdk-logs-1.17.0-alpha.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.17.0/opentelemetry-sdk-common-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.17.0/opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.17.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.17.0/opentelemetry-exporter-common-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.17.0/opentelemetry-sdk-trace-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.17.0/opentelemetry-sdk-1.17.0.jar:/Users/rihad/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.17.0-alpha/opentelemetry-semconv-1.17.0-alpha.jar:/Users/rihad/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/rihad/.m2/repository/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rihad/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/rihad/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/rihad/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/rihad/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/rihad/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rihad/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/rihad/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.5.0/selenium-http-4.5.0.jar:/Users/rihad/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.5.0/selenium-safari-driver-4.5.0.jar:/Users/rihad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.5.0/selenium-support-4.5.0.jar:/Users/rihad/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/rihad/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/rihad/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rihad/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/rihad/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/rihad/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/rihad/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/rihad/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/rihad/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/rihad/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/rihad/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/rihad/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/rihad/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/rihad/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/rihad/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/rihad"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-07-20"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="style.color" value="always"/>
-    <property name="basedir" value="/Users/rihad/eclipse-workspace/AutomationFramework"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/rihad/eclipse-workspace/AutomationFramework/target/surefire/surefirebooter15315615763179669176.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="JENKINS_HOME" value="/Users/rihad/.jenkins"/>
+    <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="1ae5bb3d951f8021"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="17.0.5+0"/>
     <property name="user.name" value="rihad"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="abc"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/abc/5/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="TMPDIR" value="/var/folders/6y/_2__mrn93bqcdvxj9146r7w40000gn/T/"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@17/17.0.5/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="5"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@17/17.0.5/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="11.2.2"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/abc/5/display/redirect"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="11.2"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="localRepository" value="/Users/rihad/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/var/folders/6y/_2__mrn93bqcdvxj9146r7w40000gn/T/"/>
-    <property name="java.version" value="11.0.12"/>
-    <property name="user.dir" value="/Users/rihad/eclipse-workspace/AutomationFramework"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/Users/rihad/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/abc/5/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.5+0"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/abc/display/redirect"/>
+    <property name="SHLVL" value="0"/>
+    <property name="JAVA_HOME" value="/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="LOGNAME" value="rihad"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/rihad"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/rihad"/>
+    <property name="BUILD_TAG" value="jenkins-abc-5"/>
+    <property name="JENKINS_SERVER_COOKIE" value="1ae5bb3d951f8021"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/rihad/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /usr/local/Cellar/maven/3.5.4/libexec /Users/rihad/.jenkins/war/WEB-INF/lib/remoting-3068.v09b_895d8da_14.jar /Users/rihad/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /Users/rihad/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 50678"/>
+    <property name="java.class.path" value="/Users/rihad/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.14.jar:/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar:/usr/local/Cellar/maven/3.5.4/libexec/conf/logging"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="M2_HOME" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/6y/_2__mrn93bqcdvxj9146r7w40000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/rihad/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.5.4/libexec/bin"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/abc/5/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.jziotSsTAC/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/rihad/eclipse-workspace/AutomationFramework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/abc/"/>
+    <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/rihad/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/rihad/.jenkins/workspace/abc@tmp"/>
+    <property name="JAVA_MAIN_CLASS_50881" value="executable.Main"/>
+    <property name="WORKSPACE" value="/Users/rihad/.jenkins/workspace/abc"/>
+    <property name="maven3.interceptor.common" value="/Users/rihad/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="USER" value="rihad"/>
   </properties>
-  <testcase name="logintest[abcd@yahoo, pqrse!234](1)" classname="com.abc.testcases.LoginTest" time="1.86">
-    <system-out><![CDATA[[INFO ] 2022-10-30 21:19:11.542 [main] Log - launching chrome
-[INFO ] 2022-10-30 21:19:16.659 [main] Log - https://www.facebook.com
-[INFO ] 2022-10-30 21:19:17.313 [main] Log - abcd@yahoo
-[INFO ] 2022-10-30 21:19:17.553 [main] Log - pqrse!234
-[INFO ] 2022-10-30 21:19:18.780 [main] Log - page got refreshed
-[INFO ] 2022-10-30 21:19:18.781 [main] Log - abcd@yahoo  pqrse!234
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 56689
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 30, 2022 9:19:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Oct 30, 2022 9:19:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 106
-]]></system-err>
-  </testcase>
-  <testcase name="logintest[abfggmail.com, xyzrt!234](2)" classname="com.abc.testcases.LoginTest" time="0.134">
-    <system-out><![CDATA[[INFO ] 2022-10-30 21:19:18.846 [main] Log - abfggmail.com
-[INFO ] 2022-10-30 21:19:18.922 [main] Log - xyzrt!234
-[INFO ] 2022-10-30 21:19:18.932 [main] Log - page got refreshed
-[INFO ] 2022-10-30 21:19:18.932 [main] Log - abfggmail.com  xyzrt!234
-]]></system-out>
-  </testcase>
-  <testcase name="logintest[efgh@icloud.com, uopiy!234](3)" classname="com.abc.testcases.LoginTest" time="0.573">
-    <system-out><![CDATA[[INFO ] 2022-10-30 21:19:19.417 [main] Log - efgh@icloud.com
-[INFO ] 2022-10-30 21:19:19.490 [main] Log - uopiy!234
-[INFO ] 2022-10-30 21:19:19.505 [main] Log - page got refreshed
-[INFO ] 2022-10-30 21:19:19.506 [main] Log - efgh@icloud.com  uopiy!234
-]]></system-out>
-  </testcase>
+  <testcase name="logintest" classname="com.abc.testcases.LoginTest" time="1.215"/>
+  <testcase name="logintest" classname="com.abc.testcases.LoginTest" time="1.286"/>
+  <testcase name="logintest" classname="com.abc.testcases.LoginTest" time="0.604"/>
 </testsuite>
