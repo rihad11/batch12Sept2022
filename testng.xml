@@ -10,6 +10,7 @@
 	<test name="Test">
 		<classes>
 			<class name="com.abc.testcases.LoginTest" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
