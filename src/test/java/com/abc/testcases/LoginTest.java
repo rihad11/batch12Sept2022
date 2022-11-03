@@ -19,6 +19,7 @@ public class LoginTest extends BaseTest {
 		 // LoginPage lp = hPage.signIn();
 		  //lp.SignorLogin(user, pass);
 		  hPage.loginFb(user, pass);
+		  System.out.println("checking poll scm");
 		  
 		  Log.info(user+"  "+pass);
 	}

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-30T21:47:59 EDT" name="Suite" finished-at="2022-10-30T21:48:02 EDT" duration-ms="3207">
+  <suite started-at="2022-11-01T21:32:21 EDT" name="Suite" finished-at="2022-11-01T21:32:24 EDT" duration-ms="3221">
     <groups>
     </groups>
-    <test started-at="2022-10-30T21:47:59 EDT" name="Test" finished-at="2022-10-30T21:48:02 EDT" duration-ms="3207">
+    <test started-at="2022-11-01T21:32:21 EDT" name="Test" finished-at="2022-11-01T21:32:24 EDT" duration-ms="3221">
       <class name="com.abc.testcases.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@534df152]" started-at="2022-10-30T21:47:44 EDT" name="setup" finished-at="2022-10-30T21:47:59 EDT" duration-ms="14410" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@49dc7102]" started-at="2022-11-01T21:32:07 EDT" name="setup" finished-at="2022-11-01T21:32:21 EDT" duration-ms="13798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@534df152]" started-at="2022-10-30T21:47:59 EDT" name="logintest" data-provider="logindata" finished-at="2022-10-30T21:48:00 EDT" duration-ms="1204" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@49dc7102]" started-at="2022-11-01T21:32:21 EDT" name="logintest" data-provider="logindata" finished-at="2022-11-01T21:32:22 EDT" duration-ms="1106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@534df152]" started-at="2022-10-30T21:48:00 EDT" name="logintest" data-provider="logindata" finished-at="2022-10-30T21:48:01 EDT" duration-ms="1297" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@49dc7102]" started-at="2022-11-01T21:32:22 EDT" name="logintest" data-provider="logindata" finished-at="2022-11-01T21:32:23 EDT" duration-ms="1499" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@534df152]" started-at="2022-10-30T21:48:01 EDT" name="logintest" data-provider="logindata" finished-at="2022-10-30T21:48:02 EDT" duration-ms="605" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.abc.testcases.LoginTest@49dc7102]" started-at="2022-11-01T21:32:23 EDT" name="logintest" data-provider="logindata" finished-at="2022-11-01T21:32:24 EDT" duration-ms="562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abc.testcases.LoginTest@534df152]" started-at="2022-10-30T21:48:02 EDT" name="tearDown" finished-at="2022-10-30T21:48:02 EDT" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abc.testcases.LoginTest@49dc7102]" started-at="2022-11-01T21:32:24 EDT" name="tearDown" finished-at="2022-11-01T21:32:24 EDT" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
