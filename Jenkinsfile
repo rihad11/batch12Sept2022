@@ -10,6 +10,7 @@ pipeline {
     stage('Testing') {
          steps {
             echo 'testing dev project'
+            checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/rihad11/batch12Sept2022.git']]])
             sh 'mvn test'
              
          }
